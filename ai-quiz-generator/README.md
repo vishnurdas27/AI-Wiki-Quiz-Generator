@@ -32,7 +32,7 @@ and generates a structured quiz with explanations, difficulty levels, and relate
 
 ### 🧩 Architecture
 
-````bash
+```bash
 ai-quiz-generator/
 ├── backend/              # FastAPI + LangChain + DB
 │   ├── main.py           # API entry point
@@ -54,8 +54,7 @@ ai-quiz-generator/
 │
 ├── sample_data/          # Example outputs & URLs
 └── README.md
-
----
+```
 
 
 ---
@@ -79,16 +78,18 @@ ai-quiz-generator/
 Wikipedia URL ➜ Scraper ➜ Clean Article Text
              ➜ LangChain (Gemini) ➜ Quiz JSON
              ➜ PostgreSQL Storage ➜ REST API ➜ React UI
+```
+## 📄 License
 
-## 🔗 API Endpoints
+MIT © 2025 – [Vishnu R Das](https://github.com/vishnurdas27)
 
-### **POST /generate_quiz**
+---
 
-Generate a quiz from a Wikipedia article.
+## 🧭 Summary
 
-**Request Body:**
-```json
-{
-  "url": "[https://en.wikipedia.org/wiki/Alan_Turing](https://en.wikipedia.org/wiki/Alan_Turing)",
-  "force": false
-}
+This project demonstrates a complete **AI-powered workflow** —  
+from **Wikipedia scraping** to **LLM-based quiz generation**,  
+data **storage**, and **interactive visualization** —  
+built using **FastAPI (Python)**, **LangChain (Gemini)**, and **React (JavaScript)**  
+for a seamless, modern user experience.
+
