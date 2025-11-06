@@ -1,0 +1,12 @@
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+SQLAlchemy==2.0.36
+psycopg2-binary==2.9.10
+pymysql==1.1.1
+python-dotenv==1.0.1
+requests==2.32.3
+beautifulsoup4==4.12.3
+langchain-core==0.3.12
+langchain-community==0.3.2
+langchain-google-genai==2.0.1
+pydantic==2.9.2
