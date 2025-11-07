@@ -31,7 +31,7 @@ export default function GenerateQuizTab(){
     <div className="space-y-6">
       <form onSubmit={onSubmit} className="card flex flex-col gap-3">
         <label className="text-sm">Wikipedia URL</label>
-        <input className="input" placeholder="https://en.wikipedia.org/wiki/Alan_Turing" value={url} onChange={e=> setUrl(e.target.value)} />
+        <input className="input" placeholder="https://en.wikipedia.org/wiki/India" value={url} onChange={e=> setUrl(e.target.value)} />
         <div className="flex items-center gap-3">
           <button className="btn" disabled={loading}>{loading? 'Generating…' : 'Generate Quiz'}</button>
           <label className="flex items-center gap-2 text-sm">
