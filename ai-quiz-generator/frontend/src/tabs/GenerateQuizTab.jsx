@@ -7,7 +7,7 @@ export default function GenerateQuizTab(){
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [data, setData] = useState(null)
-  const [takeMode, setTakeMode] = useState(false)
+  const [takeMode, setTakeMode] = useState(true)
 
   const onSubmit = async (e)=>{
     e.preventDefault()

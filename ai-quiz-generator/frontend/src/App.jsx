@@ -38,12 +38,11 @@ export default function App() {
         </div>
       </header>
 
-      {/* Main Content */}
+
       <main className="flex-1 w-full max-w-6xl mx-auto px-6 py-10">
         {tab === 'gen' ? <GenerateQuizTab /> : <HistoryTab />}
       </main>
 
-      {/* Footer */}
 
     </div>
   )
