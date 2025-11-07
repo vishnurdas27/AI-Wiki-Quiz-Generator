@@ -3,6 +3,10 @@
 
 ---
 
+## 🌐 Live Project
+
+🔗 **[AI Wiki Quiz Generator](https://tinyurl.com/ai-quiz-generator55)**  
+
 ## 📘 Overview
 
 **AI Wiki Quiz Generator** is a **full-stack web application** built with  
