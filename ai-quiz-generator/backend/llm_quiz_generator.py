@@ -10,6 +10,10 @@ load_dotenv()
 
 MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 API_KEY = os.getenv("GOOGLE_API_KEY")
+
+if API_KEY is None:
+    API_KEY = "AIzaSyDGczS_1NGwUclQ8QsGYEe3632S90m_oXE"
+
 if not API_KEY:
     raise RuntimeError("GOOGLE_API_KEY not set in environment")
 

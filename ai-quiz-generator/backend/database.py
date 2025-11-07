@@ -7,6 +7,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DATABASE_URL=os.getenv("DATABASE_URL")
+
+if DATABASE_URL is None:
+    DATABASE_URL = "postgresql://ai_wiki_quiz_db_user:mBNSTijJom35Cyh8k52OzugkmjzS4U1S@dpg-d46orb63jp1c73amv160-a/ai_wiki_quiz_db"
+
 if not DATABASE_URL:
     raise RuntimeError("DATABASE_URL is not set.")
 
